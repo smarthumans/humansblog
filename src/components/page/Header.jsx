@@ -24,7 +24,15 @@ const useStyles = makeStyles((theme) => ({
   link: {
     margin: theme.spacing(1, 1.5),
     fontWeight : "bold",
+    '&:hover': {
+      color: '#2ecc71'
+    }
   },
+  socialLink: {
+    '&:hover': {
+      color: '#2ecc71'
+    }
+  }
 }));
 
 const Nav = styled.nav`
@@ -58,30 +66,30 @@ const Header = () => {
       <AppBar position="fixed" color={appBar ? 'primary' : 'transparent' } elevation={appBar ? '{0}' : '{1}'}>
       <Toolbar>
         <Nav>
-          <Link variant="button" color={appBar ? "secondary" : "primary"} href="#" className={classes.link}>
-            Features
+          <Link variant="button" underline='none' color={appBar ? "secondary" : "primary"} href="#" className={classes.link}>
+            Home
           </Link>
-          <Link variant="button" color={appBar ? "secondary" : "primary"} href="#" className={classes.link}>
-            Enterprise
+          <Link variant="button" underline='none' color={appBar ? "secondary" : "primary"} href="#" className={classes.link}>
+            About
           </Link>
-          <Link variant="button" color={appBar ? "secondary" : "primary"} href="#" className={classes.link}>
-            Support
+          <Link variant="button" underline='none' color={appBar ? "secondary" : "primary"} href="#" className={classes.link}>
+            Contact
           </Link>
         </Nav>
         <IconNav>
-          <Link variant="button" color={appBar ? "secondary" : "primary"} href="#">
+          <Link variant="button" color={appBar ? "secondary" : "primary"} href="#" className={classes.socialLink}>
             <TiSocialTwitterCircular size='2.5em'/>
           </Link>
-          <Link variant="button" color={appBar ? "secondary" : "primary"} href="#">
+          <Link variant="button" color={appBar ? "secondary" : "primary"} href="#" className={classes.socialLink}>
             <TiSocialFacebookCircular size='2.5em'/>
           </Link>
-          <Link variant="button" color={appBar ? "secondary" : "primary"} href="#">
+          <Link variant="button" color={appBar ? "secondary" : "primary"} href="#" className={classes.socialLink}>
             <TiSocialInstagramCircular size='2.5em'/>
           </Link>
-          <Link variant="button" color={appBar ? "secondary" : "primary"} href="#">
+          <Link variant="button" color={appBar ? "secondary" : "primary"} href="#" className={classes.socialLink}>
             <TiSocialPinterestCircular size='2.5em'/>
           </Link>
-          <Link variant="button" color={appBar ? "secondary" : "primary"} href="#">
+          <Link variant="button" color={appBar ? "secondary" : "primary"} href="#" className={classes.socialLink}>
             <TiSocialYoutubeCircular size='2.5em'/>
           </Link>
         </IconNav>

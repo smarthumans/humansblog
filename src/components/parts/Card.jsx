@@ -4,6 +4,12 @@ import styled from 'styled-components';
 const CardDiv = styled.div`
 position: relative;
 align-items: center;
+margin-right: 10px
+margin-left: 10px;
+&:hover {
+  opacity: 0.7;
+}
+
 `;
 
 const CardImg = styled.img`
@@ -18,18 +24,19 @@ top: 50%;
 left: 50%;
 -webkit-transform: translateX(-50%);
 transform: translateX(-50%);
+color: #F5F5F5;
+font-weight: bold;
 `;
 
 const Card = (props) => {
 
   return (
-    <div>
+    <a href="#"> 
       <CardDiv>
         <CardImg alt="card" src={props.img}/>
         <CardDitail>{props.name}</CardDitail>
       </CardDiv>
-    </div>
-    
+    </a>
   )
 }
 

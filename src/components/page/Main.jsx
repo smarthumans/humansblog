@@ -1,7 +1,7 @@
 import React from 'react';
 
 import styled from 'styled-components';
-import backgroundImage from '../../static/images/background.jpg';
+import backgroundImage from '../../static/images/background1.jpg';
 import * as MainConstants from '../../constants/MainConstants';
 import Card from '../parts/Card';
 
@@ -38,7 +38,6 @@ display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: space-evenly;
-padding-bottom: 15px;
 `;
 
 const Main = () => {
