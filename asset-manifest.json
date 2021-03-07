@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/humansblog/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/humansblog/static/js/main.654720b9.chunk.js",
-    "main.js.map": "/humansblog/static/js/main.654720b9.chunk.js.map",
+    "main.js": "/humansblog/static/js/main.d474e50f.chunk.js",
+    "main.js.map": "/humansblog/static/js/main.d474e50f.chunk.js.map",
     "runtime-main.js": "/humansblog/static/js/runtime-main.bf2a36e2.js",
     "runtime-main.js.map": "/humansblog/static/js/runtime-main.bf2a36e2.js.map",
     "static/js/2.bbe26459.chunk.js": "/humansblog/static/js/2.bbe26459.chunk.js",
@@ -12,12 +12,15 @@
     "index.html": "/humansblog/index.html",
     "static/css/main.8c8b27cf.chunk.css.map": "/humansblog/static/css/main.8c8b27cf.chunk.css.map",
     "static/js/2.bbe26459.chunk.js.LICENSE.txt": "/humansblog/static/js/2.bbe26459.chunk.js.LICENSE.txt",
-    "static/media/background.57bd9555.jpg": "/humansblog/static/media/background.57bd9555.jpg"
+    "static/media/aboutme.01ac659b.jpg": "/humansblog/static/media/aboutme.01ac659b.jpg",
+    "static/media/background.57bd9555.jpg": "/humansblog/static/media/background.57bd9555.jpg",
+    "static/media/background1.e53bef12.jpg": "/humansblog/static/media/background1.e53bef12.jpg",
+    "static/media/gallery.bafbdfe4.jpg": "/humansblog/static/media/gallery.bafbdfe4.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.bf2a36e2.js",
     "static/js/2.bbe26459.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.654720b9.chunk.js"
+    "static/js/main.d474e50f.chunk.js"
   ]
 }
