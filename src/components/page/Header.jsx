@@ -4,21 +4,11 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Link from '@material-ui/core/Link';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import { createMuiTheme, ThemeProvider } from '@material-ui/core';
+import { ThemeProvider } from '@material-ui/core';
 import { TiSocialTwitterCircular, TiSocialFacebookCircular, TiSocialInstagramCircular, TiSocialPinterestCircular, TiSocialYoutubeCircular } from "react-icons/ti";
 import styled from 'styled-components';
 import { makeStyles } from '@material-ui/core/styles';
-
-const theme = createMuiTheme({
-  palette: {
-    primary: {
-      main: '#F5F5F5',
-    },
-    secondary: {
-      main: '#526071',
-    },
-  },
-});
+import * as MainConstants from '../../constants/MainConstants';
 
 const useStyles = makeStyles((theme) => ({
   link: {
@@ -61,7 +51,7 @@ const Header = () => {
   window.addEventListener('scroll', changebackground)
 
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={MainConstants.theme}>
       <CssBaseline />
       <AppBar position="fixed" color={appBar ? 'primary' : 'transparent' } elevation={appBar ? '{0}' : '{1}'}>
       <Toolbar>

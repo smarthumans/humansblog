@@ -2,6 +2,7 @@ import aboutme from '../static/images/aboutme.jpg';
 import gallery from '../static/images/gallery.jpg';
 import category3 from '../static/images/background.jpg';
 import category4 from '../static/images/background.jpg';
+import { createMuiTheme } from '@material-ui/core';
 
 export const TITLE="BLOG";
 
@@ -26,4 +27,20 @@ export const CARD_LISTS = [
     name: "Leanne",
     img: category4,
   },
+  {
+    id: 5,
+    name: "Leanne",
+    img: category4,
+  },
 ];
+
+export const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: '#F5F5F5',
+    },
+    secondary: {
+      main: '#526071',
+    },
+  },
+});
