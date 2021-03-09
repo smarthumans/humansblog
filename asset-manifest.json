@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/humansblog/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/humansblog/static/js/main.574ab006.chunk.js",
-    "main.js.map": "/humansblog/static/js/main.574ab006.chunk.js.map",
-    "runtime-main.js": "/humansblog/static/js/runtime-main.96300a88.js",
-    "runtime-main.js.map": "/humansblog/static/js/runtime-main.96300a88.js.map",
+    "main.js": "/humansblog/static/js/main.f0947a84.chunk.js",
+    "main.js.map": "/humansblog/static/js/main.f0947a84.chunk.js.map",
+    "runtime-main.js": "/humansblog/static/js/runtime-main.11bb5b54.js",
+    "runtime-main.js.map": "/humansblog/static/js/runtime-main.11bb5b54.js.map",
     "static/css/2.b883bd4c.chunk.css": "/humansblog/static/css/2.b883bd4c.chunk.css",
-    "static/js/2.4eb4ef11.chunk.js": "/humansblog/static/js/2.4eb4ef11.chunk.js",
-    "static/js/2.4eb4ef11.chunk.js.map": "/humansblog/static/js/2.4eb4ef11.chunk.js.map",
-    "static/js/3.fcd4ae41.chunk.js": "/humansblog/static/js/3.fcd4ae41.chunk.js",
-    "static/js/3.fcd4ae41.chunk.js.map": "/humansblog/static/js/3.fcd4ae41.chunk.js.map",
+    "static/js/2.21f93a6d.chunk.js": "/humansblog/static/js/2.21f93a6d.chunk.js",
+    "static/js/2.21f93a6d.chunk.js.map": "/humansblog/static/js/2.21f93a6d.chunk.js.map",
+    "static/js/3.eecaf272.chunk.js": "/humansblog/static/js/3.eecaf272.chunk.js",
+    "static/js/3.eecaf272.chunk.js.map": "/humansblog/static/js/3.eecaf272.chunk.js.map",
     "index.html": "/humansblog/index.html",
     "static/css/2.b883bd4c.chunk.css.map": "/humansblog/static/css/2.b883bd4c.chunk.css.map",
     "static/css/main.8c8b27cf.chunk.css.map": "/humansblog/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.4eb4ef11.chunk.js.LICENSE.txt": "/humansblog/static/js/2.4eb4ef11.chunk.js.LICENSE.txt",
+    "static/js/2.21f93a6d.chunk.js.LICENSE.txt": "/humansblog/static/js/2.21f93a6d.chunk.js.LICENSE.txt",
     "static/media/aboutme.01ac659b.jpg": "/humansblog/static/media/aboutme.01ac659b.jpg",
     "static/media/background.57bd9555.jpg": "/humansblog/static/media/background.57bd9555.jpg",
     "static/media/background10.973e596b.jpg": "/humansblog/static/media/background10.973e596b.jpg",
@@ -21,10 +21,10 @@
     "static/media/slick-theme.css": "/humansblog/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.96300a88.js",
+    "static/js/runtime-main.11bb5b54.js",
     "static/css/2.b883bd4c.chunk.css",
-    "static/js/2.4eb4ef11.chunk.js",
+    "static/js/2.21f93a6d.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.574ab006.chunk.js"
+    "static/js/main.f0947a84.chunk.js"
   ]
 }
