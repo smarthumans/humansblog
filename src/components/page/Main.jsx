@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import backgroundImage from '../../static/images/3176681.jpg';
+import backgroundImage from '../../static/images/background1.jpg';
 import * as MainConstants from '../../constants/MainConstants';
 import Link from '@material-ui/core/Link';
 import Card from '../parts/Card';
