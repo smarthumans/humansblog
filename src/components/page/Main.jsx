@@ -1,65 +1,32 @@
 import React from 'react';
 import styled from 'styled-components';
-import backgroundImage from '../../static/images/background1.jpg';
+import backgroundImage from '../../static/images/3176681.jpg';
 import * as MainConstants from '../../constants/MainConstants';
 import Link from '@material-ui/core/Link';
 import Card from '../parts/Card';
-import Slider from "react-slick";
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { ThemeProvider } from '@material-ui/core';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-
-const sliderSetting = {
-  dots: false,
-  infinite: false,
-  autoplay: true,
-  speed: 500,
-  slidesToShow: 4,
-  slidesToScroll: 1 ,
-  initialSlide: 0,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        initialSlide: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-  ]
-}
+import Swiper from 'react-id-swiper';
+import "swiper/swiper.min.css";
+import "swiper/components/pagination/pagination.min.css";
+import { Autoplay, Swiper as RealSwiper } from "swiper";
+RealSwiper.use([Autoplay]);
 
 const Div = styled.div`
 position: relative;
+font-size: 30px;
 `;
 
 const Image = styled.img`
 height: 550px;
 width: 100%;
 object-fit: cover;
+object-position : 50% 50%;
 `;
 
 const Title = styled.p`
-text-align:center
-font-weight: bold;
-font-size: 3em;
+text-align:center;
+font-weight:700;
 position: absolute;
 top: 50%;
 left: 50%;
@@ -76,9 +43,42 @@ align-items: center;
 &:hover {
   opacity: 0.7;
 }
-padding: 0 2.5px;
-margin:15px 0 0 2.5px;
+margin:15px 0 0 0;
 `;
+
+const params = {
+  loop: true,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  },
+  breakpoints: {
+    1024: {
+      slidesPerView: 4,
+      spaceBetween: 10
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 30
+    },
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    },
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 10
+    }
+  }
+}
 
 const Main = () => {
 
@@ -89,7 +89,7 @@ const Main = () => {
         <Image src={backgroundImage}/>
         <Title>WELCOME TO {MainConstants.TITLE}</Title>
       </Div>
-      <Slider {...sliderSetting}>
+      <Swiper {...params}>
         {MainConstants.CARD_LISTS.map((data) => {  
           return (
             <CardDiv>
@@ -99,7 +99,7 @@ const Main = () => {
             </CardDiv>
           )})
         }
-      </Slider>
+      </Swiper>
     </ThemeProvider>
   )
 }

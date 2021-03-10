@@ -2,9 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 const CardImg = styled.img`
-width: 400px;
-height: 400px;
-color: #333;
+width: 380px;
+height: 380px;
 `;
 
 const CardDitail = styled.div`

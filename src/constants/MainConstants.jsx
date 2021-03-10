@@ -1,7 +1,7 @@
 import aboutme from '../static/images/aboutme.jpg';
 import gallery from '../static/images/gallery.jpg';
-import category3 from '../static/images/background.jpg';
-import category4 from '../static/images/background.jpg';
+import category3 from '../static/images/background2.jpg';
+import category4 from '../static/images/background2.jpg';
 import { createMuiTheme } from '@material-ui/core';
 
 export const TITLE="BLOG";
