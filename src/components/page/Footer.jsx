@@ -21,9 +21,8 @@ const useStyles = makeStyles(() => ({
   iconNav : {
     position: 'absolute',
     top: '50%',
-    left: '50%',
-    marginRight: '-50%',
-    transform: 'translate(-50%, -50%)'
+    right: '2%',
+    transform: 'translate(-5%, -50%)'
   },
 }));
 

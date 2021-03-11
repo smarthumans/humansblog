@@ -51,10 +51,10 @@ const Header = () => {
       <AppBar position="fixed" color={appBar ? 'primary' : 'transparent' } elevation={appBar ? '{0}' : '{1}'}>
       <Toolbar>
         <Nav>
-          <Link variant="button" underline='none' color={appBar ? "secondary" : "primary"} href="#" className={classes.link}>
+          <Link variant="button" underline='none' color={appBar ? "secondary" : "primary"} href="/" className={classes.link}>
             Home
           </Link>
-          <Link variant="button" underline='none' color={appBar ? "secondary" : "primary"} href="#" className={classes.link}>
+          <Link variant="button" underline='none' color={appBar ? "secondary" : "primary"} href="test" className={classes.link}>
             About
           </Link>
           <Link variant="button" underline='none' color={appBar ? "secondary" : "primary"} href="#" className={classes.link}>
