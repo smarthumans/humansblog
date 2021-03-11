@@ -4,6 +4,8 @@ import styled from 'styled-components';
 const CardImg = styled.img`
 width: 380px;
 height: 380px;
+border-radius: 10px 10px 10px 10px;
+box-shadow: 0 5px 10px 0 rgb(0 0 0 / 50%);
 `;
 
 const CardDitail = styled.div`

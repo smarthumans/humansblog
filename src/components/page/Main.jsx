@@ -18,7 +18,7 @@ font-size: 30px;
 `;
 
 const Image = styled.img`
-height: 550px;
+height: 650px;
 width: 100%;
 object-fit: cover;
 object-position : 50% 50%;
