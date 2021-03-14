@@ -5,7 +5,8 @@ import mental from '../static/images/cards/card-mental.jpg';
 import meal from '../static/images/cards/card-meal.jpg';
 import { createMuiTheme } from '@material-ui/core';
 
-export const TITLE="XXX";
+export const TITLE="WELCOME TO XXX";
+export const TITLE1="自分が自分らしくいられるために";
 
 export const CARD_LISTS = [
   {

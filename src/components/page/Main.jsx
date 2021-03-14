@@ -27,8 +27,23 @@ object-position : 50% 50%;
 const Title = styled.p`
 text-align:center;
 font-weight:700;
+font-size: 1.5em;
 position: absolute;
 top: 50%;
+left: 50%;
+-ms-transform: translate(-50%,-50%);
+-webkit-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%);
+color: #F5F5F5;
+margin:auto;
+`;
+
+const Title1 = styled.p`
+text-align:center;
+font-weight:500;
+font-size: 1em;
+position: absolute;
+top: 60%;
 left: 50%;
 -ms-transform: translate(-50%,-50%);
 -webkit-transform: translate(-50%,-50%);
@@ -87,7 +102,8 @@ const Main = () => {
     <CssBaseline />
       <Div>
         <Image src={backgroundImage}/>
-        <Title>WELCOME TO {MainConstants.TITLE}</Title>
+        <Title>{MainConstants.TITLE}</Title>
+        <Title1>{MainConstants.TITLE1}</Title1>
       </Div>
       <Swiper {...params}>
         {MainConstants.CARD_LISTS.map((data) => {  
