@@ -1,33 +1,35 @@
 {
   "files": {
     "main.css": "/humansblog/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/humansblog/static/js/main.7a5c22af.chunk.js",
-    "main.js.map": "/humansblog/static/js/main.7a5c22af.chunk.js.map",
+    "main.js": "/humansblog/static/js/main.f02f0737.chunk.js",
+    "main.js.map": "/humansblog/static/js/main.f02f0737.chunk.js.map",
     "runtime-main.js": "/humansblog/static/js/runtime-main.9d06fd71.js",
     "runtime-main.js.map": "/humansblog/static/js/runtime-main.9d06fd71.js.map",
     "static/css/2.f0169763.chunk.css": "/humansblog/static/css/2.f0169763.chunk.css",
-    "static/js/2.bb7b0b97.chunk.js": "/humansblog/static/js/2.bb7b0b97.chunk.js",
-    "static/js/2.bb7b0b97.chunk.js.map": "/humansblog/static/js/2.bb7b0b97.chunk.js.map",
+    "static/js/2.acdf592f.chunk.js": "/humansblog/static/js/2.acdf592f.chunk.js",
+    "static/js/2.acdf592f.chunk.js.map": "/humansblog/static/js/2.acdf592f.chunk.js.map",
     "static/js/3.11ad8544.chunk.js": "/humansblog/static/js/3.11ad8544.chunk.js",
     "static/js/3.11ad8544.chunk.js.map": "/humansblog/static/js/3.11ad8544.chunk.js.map",
     "index.html": "/humansblog/index.html",
     "static/css/2.f0169763.chunk.css.map": "/humansblog/static/css/2.f0169763.chunk.css.map",
     "static/css/main.8c8b27cf.chunk.css.map": "/humansblog/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.bb7b0b97.chunk.js.LICENSE.txt": "/humansblog/static/js/2.bb7b0b97.chunk.js.LICENSE.txt",
+    "static/js/2.acdf592f.chunk.js.LICENSE.txt": "/humansblog/static/js/2.acdf592f.chunk.js.LICENSE.txt",
     "static/media/about.20ebf7b3.jpg": "/humansblog/static/media/about.20ebf7b3.jpg",
     "static/media/background1.03aeda96.jpg": "/humansblog/static/media/background1.03aeda96.jpg",
     "static/media/card-about.01ac659b.jpg": "/humansblog/static/media/card-about.01ac659b.jpg",
     "static/media/card-exercise.f0b6387e.jpg": "/humansblog/static/media/card-exercise.f0b6387e.jpg",
+    "static/media/card-meal.8e5d8cad.jpg": "/humansblog/static/media/card-meal.8e5d8cad.jpg",
     "static/media/card-mental.c49792c6.jpg": "/humansblog/static/media/card-mental.c49792c6.jpg",
     "static/media/exercise.eadbf31f.jpg": "/humansblog/static/media/exercise.eadbf31f.jpg",
     "static/media/gallery.bafbdfe4.jpg": "/humansblog/static/media/gallery.bafbdfe4.jpg",
+    "static/media/meal.ff55f3de.jpg": "/humansblog/static/media/meal.ff55f3de.jpg",
     "static/media/mental.6c6e3620.jpg": "/humansblog/static/media/mental.6c6e3620.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9d06fd71.js",
     "static/css/2.f0169763.chunk.css",
-    "static/js/2.bb7b0b97.chunk.js",
+    "static/js/2.acdf592f.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.7a5c22af.chunk.js"
+    "static/js/main.f02f0737.chunk.js"
   ]
 }
