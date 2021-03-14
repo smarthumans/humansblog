@@ -18,7 +18,7 @@ font-size: 30px;
 `;
 
 const Image = styled.img`
-height: 750px;
+height: 550px;
 width: 100%;
 object-fit: cover;
 object-position : 50% 50%;
@@ -93,7 +93,7 @@ const Main = () => {
         {MainConstants.CARD_LISTS.map((data) => {  
           return (
             <CardDiv>
-              <Link href="#">
+              <Link href={data.link}>
                 <Card img={data.img} name={data.name}/>
               </Link>
             </CardDiv>

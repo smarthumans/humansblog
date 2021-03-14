@@ -1,7 +1,7 @@
-import aboutme from '../static/images/aboutme.jpg';
+import aboutme from '../static/images/cards/card-about.jpg';
 import gallery from '../static/images/gallery.jpg';
-import category3 from '../static/images/background2.jpg';
-import category4 from '../static/images/background2.jpg';
+import exercise from '../static/images/cards/card-exercise.jpg';
+import mental from '../static/images/cards/card-mental.jpg';
 import { createMuiTheme } from '@material-ui/core';
 
 export const TITLE="BLOG";
@@ -9,28 +9,33 @@ export const TITLE="BLOG";
 export const CARD_LISTS = [
   {
     id: 1,
+    link: "#/about",
     name: "ABOUT ME",
     img: aboutme,
   },
   {
     id: 2,
+    link:"#",
     name: "GALLERY",
     img: gallery,
   },
   {
     id: 3,
-    name: "Leanne",
-    img: category3,
+    link: "#/exercise",
+    name: "EXERCISE",
+    img: exercise,
   },
   {
     id: 4,
-    name: "Leanne",
-    img: category4,
+    link:"#/mental",
+    name: "MENTAL",
+    img: mental,
   },
   {
     id: 5,
+    link:"#",
     name: "Leanne",
-    img: category4,
+    img: mental,
   },
 ];
 
